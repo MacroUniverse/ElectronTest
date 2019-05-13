@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require('electron')
+console.log(typeof(app));
+console.log(typeof(BrowserWindow));
 
 function createWindow () {
   // Create the browser window.
